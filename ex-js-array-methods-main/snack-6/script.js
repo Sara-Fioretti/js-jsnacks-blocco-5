@@ -15,25 +15,25 @@ const zucchine = [
 
 let bigZucchine = [];
 let smallZucchine = [];
-zucchine.forEach((zucchina)=>{
-  if(zucchina.length >= 15){
+zucchine.forEach((zucchina) => {
+  if (zucchina.length >= 15) {
     bigZucchine.push(zucchina)
-  }else{
+  } else {
     smallZucchine.push(zucchina)
   }
 })
-console.log ("Array ottenuti con il for each")
-console.log (bigZucchine);
-console.log (smallZucchine);
+console.log("Array ottenuti con il for each")
+console.log(bigZucchine);
+console.log(smallZucchine);
 
 //OPPURE
-let bigZucchineFilter = zucchine.filter((zucchina)=>{
+let bigZucchineFilter = zucchine.filter((zucchina) => {
   return zucchina.length >= 15
 })
 
-let smallZucchineFilter = zucchine.filter((zucchina)=>{
+let smallZucchineFilter = zucchine.filter((zucchina) => {
   return zucchina.length < 15
 })
-console.log ("Array ottenuti con il filter")
-console.log (bigZucchineFilter);
-console.log (smallZucchineFilter);
+console.log("Array ottenuti con il filter")
+console.log(bigZucchineFilter);
+console.log(smallZucchineFilter);

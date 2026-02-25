@@ -22,7 +22,7 @@ const students = [
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
-const student = students.find((studente)=>{
+const student = students.find((studente) => {
   return studente.id == 2
 })
-console.log (student)
+console.log(student)
